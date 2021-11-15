@@ -224,7 +224,7 @@ form button{
 }
 
 /*PARTE RESPONSIVE*/
-@media (max-width: 650px) {
+@media (max-width: 850px) {
 
     .conjunto {
         width: 400px;
@@ -232,6 +232,35 @@ form button{
 
     .formulario {
         width: 100%;
+        border-radius: 1em 1em 1em 1em;
+    }
+    .pagina2{
+        display: none;
+    }
+}
+@media (max-width: 650px) {
+
+    .conjunto {
+        width: 300px;
+    }
+
+    .formulario {
+        width: 80%;
+        border-radius: 1em 1em 1em 1em;
+    }
+    .pagina2{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+
+    .conjunto {
+        width: 300px;
+    }
+
+    .formulario {
+        width: 80%;
+        border-radius: 1em 1em 1em 1em;
     }
     .pagina2{
         display: none;
